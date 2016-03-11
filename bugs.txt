@@ -1,0 +1,18 @@
+RPAL SCANNER AND PARSER
+-----------------------
+AUTHOR: SIDDHANT DESHMUKH
+-------------------------
+
+RUNNING
+-------
+Type the following command to test with "difftest.pl" :   
+_____________________________________________________________________________
+|                                                                             |
+| perl difftest.pl -1 "./rpal -ast -noout FILE" -2 "./p1 -ast FILE" -t tests/ |  
+|_____________________________________________________________________________|
+
+
+
+BUGS
+----
+My parser successfully runs all the 54 programs in the tests folder and creates the exact same AST as professors program.
